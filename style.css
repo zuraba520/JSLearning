@@ -1,0 +1,191 @@
+/*ახლა წავა ბოდის მოწესრიგება */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 12px;
+    padding: 0 40px;
+    text-align: center;
+}
+/*ახლა ტრ და ტდ ანუ,ჩვენი ჩამონათალი(registracia da egetebi)*/
+table tr td {
+    padding: 0 15px;
+    height: 20px;
+}
+
+/*axla aris selectis jeri*/
+select {
+    border: none;
+}
+/*link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+/*hover */
+a:hover {
+    text-decoration: underline;
+}
+/*stumar */
+a:visited {
+    color: black;
+}
+/*shesvla da linki */
+.sign a:link {
+    color: blue;
+    text-decoration: underline;
+}
+.top-table {
+    display: inline-block;
+}
+.top-table img {
+    height: 20px;
+    width: auto;
+}
+.second-top {
+    width: 100%;
+}
+
+.second-top img,
+div,
+span,
+input {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.second-top img {
+    height: 50px;
+}
+
+.search {
+    border: 1px solid black;
+    height: 40px;
+    width: 50%;
+}
+
+.search img {
+    height: 20px;
+}
+
+.search span {
+    font-size: 14px;
+}
+
+.search input {
+    border: none;
+    font-size: 16px;
+    height: 35px;
+    width: 70%;
+    float: left;
+}
+
+.searchbtn {
+    background-color: #3665f3;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 140px;
+}
+
+.search select {
+    float: right;
+    width: 150px;
+    height: 100%;
+    color: gray;
+    border-left: 1px solid lightgray;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.third-top a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.third-top a:hover {
+    color: blue;
+}
+
+.banner div,
+img {
+    display: inline-block;
+}
+
+.banner div {
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.banner {
+    color: #fadcc3;
+    background-color: #af3005;
+    padding: 0;
+}
+
+.banner div {
+    padding: 0px 20px;
+}
+
+.banner h1 {
+    font-size: 35px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner button {
+    font-size: 18px;
+    color: #fadcc3;
+    background-color: #af3005;
+    border: 1px solid #fadcc3;
+    padding: 10px;
+}
+
+.banner button:hover {
+    font-size: 18px;
+    color: #af3005;
+    background-color: #fadcc3;
+    border: 1px solid #fadcc3;
+    padding: 10px;
+}
+
+.popular {
+    margin: 30px;
+}
+
+.popular img {
+    height: 150px;
+    display: block;
+}
+
+.popular a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popular h1 {
+    text-align: left;
+    width: 100%;
+}
+
+.bottom-table {
+    text-align: left;
+    color: gray;
+}
+
+.bottom-table td,
+th {
+    padding: 0 50px;
+}
+
+.bottom-table th {
+    font-size: 15px;
+}
+
+.bottom-table select {
+    background-color: lightgrey;
+}
